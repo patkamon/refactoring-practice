@@ -22,6 +22,12 @@ Look for refactorings in the class `GameApp`.
 * Avoid side-effects: replace side effect with return value (the caller must use the return value)
 
 * Encapsulate a collection - provide behavior that subclasses of GameApp need instead of requiring them to manipulate a collection that belongs to the GameApp class.
+
+refractor the method create canvas to avoid the side effect by give it an return method that return canvas instead of initialize the ```self.canvas```
+use string constant instead of string literal.
+
+
+
   - Hint: `elements`
 
 ## `recipe/recipe.py` and `recipe/main.py`
@@ -38,6 +44,7 @@ The Recipe class defines a recipe for a hot beverage with attributes:
 
 Refactor `main.py`.  What can you do to eliminate the long, boring code?
 
+create function to create menu easier.
 
 
 
