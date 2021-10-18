@@ -12,6 +12,8 @@ Each subdirectory contains some code that needs refactoring.
 
 Refactor timestamp.py.  2 or 3 refactorings are possible.
 
+refractor rename from arg to timestamp_list because name should be clear what it is and extract the if condition to method.
+
 
 ## `game_framework/gamelib.py`
 
@@ -43,6 +45,6 @@ Refactor `main.py`.  What can you do to eliminate the long, boring code?
 
 ## Resources
 
-* <https://refactoringguru.com/refactoring> 
+* <https://refactoringguru.com/refactoring>
 * *Refactoring - Improving the Design of Existing Code* by Martin Fowler.  The bible on refactoring.  The first 4 chapters explain the fundamentals.
 * <https://refactoring.com> Online version of Fowler's book, but lacks explanation of the refactorings.
